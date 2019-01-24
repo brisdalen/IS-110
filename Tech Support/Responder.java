@@ -50,7 +50,7 @@ public class Responder
         defaultResponseCounter = new int[defaultResponses.size()];
         randomGenerator = new Random();
         // Seed foråsaker samme rekkefølge om det brukes
-        randomGenerator.setSeed(30000);
+        // randomGenerator.setSeed(30000);
     }
 
     public HashMap getResponseCounter() {
